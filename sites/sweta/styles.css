@@ -15,6 +15,7 @@ body {
   color: #555555;
 }
 
+
 .bold {
   font-weight: 700;
   font-size: 20px;
@@ -63,7 +64,7 @@ body {
   color: #fff;
 }
 .resume .resume_left .bold1 {
-   margin-top: 10px;
+   margin-top: 20px;
    margin-bottom: 0px;
    color: #fff;
 }
@@ -92,6 +93,14 @@ body {
   margin-bottom: 0px;
 }
 
+.icon  a i {
+    color: #0bb5f4;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
 .resume .resume_left ul li .icon {
   width: 35px;
   height: 35px;
@@ -115,9 +124,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.resume .resume_left ul li .data {
+.resume .resume_left ul li .data ,
+.resume .resume_left ul li .data a{
   color: #b1eaff;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .resume .resume_left .resume_skills ul li {
@@ -216,6 +226,11 @@ body {
   margin-bottom: 5px;
 }
 
+.resume .resume_right .resume_work ul li .change{
+  left: -2px;
+
+}
+
 .resume .resume_right .resume_work ul li:before,
 .resume .resume_right .resume_education ul li:before {
   content: "";
@@ -238,6 +253,7 @@ body {
   height: 115px;
   background: #0bb5f4;
 }
+
 
 .resume .resume_right .resume_hobby ul {
   display: flex;
@@ -269,4 +285,26 @@ body {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+} 
+
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
 }
