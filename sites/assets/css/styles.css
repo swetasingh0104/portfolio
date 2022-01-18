@@ -207,6 +207,8 @@ img{
 .home__social{
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
+  
 }
 .home__social-icon{
   width: max-content;
