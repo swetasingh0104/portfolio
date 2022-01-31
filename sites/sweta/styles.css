@@ -36,7 +36,7 @@ body {
 
 .resume .resume_left {
   width: 350px;
-  background: #0bb5f4;
+  background: #75929f;
 }
 
 .resume .resume_left .resume_profile {
@@ -64,18 +64,18 @@ body {
   color: #fff;
 }
 .resume .resume_left .bold1 {
-   margin-top: 20px;
+   margin-top: 5px;
    margin-bottom: 0px;
    color: #fff;
 }
 
 .resume .resume_left .regular {
-  color: #b1eaff;
+  color: #d2eef8;
 }
 
 .resume .resume_item {
   padding: 25px 0;
-  border-bottom: 2px solid #b1eaff;
+  border-bottom: 2px solid #879fa8;
 }
 
 .resume .resume_left .resume_item:last-child,
@@ -94,7 +94,7 @@ body {
 }
 
 .icon  a i {
-    color: #0bb5f4;
+    color:#6f8b96;              
     padding: 10px;
     font-size: 1rem;
     border-radius: 50%;
@@ -105,7 +105,7 @@ body {
   width: 35px;
   height: 35px;
   background: #fff;
-  color: #0bb5f4;
+  color: #6f8b96;
   border-radius: 50%;
   margin-right: 7px;
   font-size: 16px;
@@ -126,28 +126,28 @@ body {
 
 .resume .resume_left ul li .data ,
 .resume .resume_left ul li .data a{
-  color: #b1eaff;
-  font-size: 12px;
+  color: #e3f5fc;
+  font-size: 12px; 
 }
 
 .resume .resume_left .resume_skills ul li {
   display: flex;
   margin-bottom: 10px;
-  color: #b1eaff;
+  color: #e2f6fd;
   justify-content: space-between;
   align-items: center;
 }
 
 .resume .resume_left .resume_skills ul li .skill_name {
   
-  margin-top: 5px;
+  margin-top: -5px;
 }
 
 .resume .resume_left .resume_skills ul li .skill_progress {
   width: 60%;
   margin: 0 5px;
   height: 5px;
-  background: #009fd9;
+  background:  #75929f;
   position: relative;
 }
 
@@ -181,7 +181,7 @@ body {
 }
 
 .resume .resume_right .bold {
-  color: #0bb5f4;
+  color: #45565f;
 }
 
 .resume .resume_right .resume_work ul,
@@ -208,6 +208,15 @@ body {
   font-size: 13px;
   font-weight: 500;
   margin-bottom: 10px;}
+
+  .resume .resume_right ul li .achieve a{
+    color: #3b6fbd;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10
+px
+;
+}
 
 .resume .resume_right ul li .info {
   margin-bottom: 10px;
@@ -240,7 +249,7 @@ body {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  border: 2px solid #0bb5f4;
+  border: 2px solid #5b92af;
 }
 
 .resume .resume_right .resume_work ul li:after,
@@ -251,7 +260,7 @@ body {
   left: -21px;
   width: 2px;
   height: 115px;
-  background: #0bb5f4;
+  background: #5b92af;
 }
 
 
